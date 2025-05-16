@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.svalero</groupId>
-    <artifactId>SteamWeb</artifactId>
+    <artifactId>Restaurant</artifactId>
     <version>0.1</version>
     <packaging>war</packaging>
 
@@ -41,7 +41,7 @@
     </dependencies>
 
     <build>
-        <finalName>SteamWeb</finalName>
+        <finalName>Restaurant</finalName>
         <pluginManagement>
             <plugins>
                 <plugin>
@@ -63,7 +63,7 @@
                     <configuration>
                         <url>http://localhost:8082/manager/text</url>
                         <server>tomcat9</server>
-                        <path>/steam</path>
+                        <path>/restaurant</path>
                         <username>tomcat</username>
                         <password>tomcat</password>
                     </configuration>
